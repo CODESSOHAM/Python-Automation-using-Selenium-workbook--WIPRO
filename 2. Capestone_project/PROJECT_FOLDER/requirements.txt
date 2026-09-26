@@ -1,0 +1,6 @@
+requests==2.32.3
+behave==1.2.6
+allure-behave==2.13.5
+jsonschema==4.23.0
+python-dotenv==1.0.1
+responses==0.25.3

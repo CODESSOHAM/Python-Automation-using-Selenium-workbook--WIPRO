@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.12.4 on win32)" generated="2026-09-24T12:54:39.614483" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot Ecommerce Test" source="C:\Users\Dell\Desktop\Assignment-1_Robot_Framework_Web_Automation\robot_ecommerce_test.robot">
+<test id="s1-t1" name="Verify E-Commerce Website" line="14">
+<kw name="Open Test Browser" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-24T12:54:41.387445" level="INFO">Opening browser 'chrome' to base url 'https://demowebshop.tricentis.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-24T12:54:41.386447" elapsed="10.414301"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-24T12:54:51.801560" elapsed="0.100427"/>
+</kw>
+<status status="PASS" start="2026-09-24T12:54:41.384452" elapsed="10.517535"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-09-24T12:54:52.172262" level="INFO">Current page contains text 'Demo Web Shop'.</msg>
+<arg>Demo Web Shop</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-09-24T12:54:51.902984" elapsed="0.269278"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2026-09-24T12:54:52.219788" level="INFO">Page title is 'Demo Web Shop'.</msg>
+<arg>Demo Web Shop</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2026-09-24T12:54:52.173260" elapsed="0.046528"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-09-24T12:54:52.220786" elapsed="2.391912"/>
+</kw>
+<status status="PASS" start="2026-09-24T12:54:41.383454" elapsed="13.229244"/>
+</test>
+<test id="s1-t2" name="Verify Search Functionality" line="19">
+<kw name="Open Test Browser" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-24T12:54:54.614221" level="INFO">Opening browser 'chrome' to base url 'https://demowebshop.tricentis.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-24T12:54:54.614221" elapsed="6.103001"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-24T12:55:00.718218" elapsed="0.078611"/>
+</kw>
+<status status="PASS" start="2026-09-24T12:54:54.614221" elapsed="6.182608"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-24T12:55:00.798823" level="INFO">Typing text 'laptop' into text field 'id=small-searchterms'.</msg>
+<arg>id=small-searchterms</arg>
+<arg>laptop</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-24T12:55:00.797826" elapsed="0.258116"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-09-24T12:55:01.057965" level="INFO">Clicking button 'xpath=//input[@value='Search']'.</msg>
+<arg>xpath=//input[@value='Search']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-24T12:55:01.056939" elapsed="0.968604"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-09-24T12:55:02.048934" level="INFO">Current page contains text 'Search'.</msg>
+<arg>Search</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-09-24T12:55:02.025543" elapsed="0.023391"/>
+</kw>
+<kw name="Capture Page Screenshot" owner="SeleniumLibrary">
+<msg time="2026-09-24T12:55:02.358940" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshots/search_result.png"&gt;&lt;img src="screenshots/search_result.png" width="800px"&gt;&lt;/a&gt;</msg>
+<arg>screenshots/search_result.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="PASS" start="2026-09-24T12:55:02.049934" elapsed="0.309006"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-09-24T12:55:02.360053" elapsed="2.419299"/>
+</kw>
+<status status="PASS" start="2026-09-24T12:54:54.614221" elapsed="10.165131"/>
+</test>
+<status status="PASS" start="2026-09-24T12:54:39.614483" elapsed="25.166776"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robot Ecommerce Test" id="s1" pass="2" fail="0" skip="0">Robot Ecommerce Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

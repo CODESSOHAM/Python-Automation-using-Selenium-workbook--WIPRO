@@ -1,0 +1,16 @@
+{
+  "new_user": {
+    "name": "Jane Doe",
+    "username": "janedoe",
+    "email": "jane.doe@example.com",
+    "phone": "555-0100",
+    "website": "janedoe.dev"
+  },
+  "updated_user": {
+    "name": "Jane D. Smith",
+    "username": "janedsmith",
+    "email": "jane.smith@example.com",
+    "phone": "555-0199",
+    "website": "janesmith.dev"
+  }
+}
