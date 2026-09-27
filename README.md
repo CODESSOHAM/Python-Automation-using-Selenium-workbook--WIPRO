@@ -10,7 +10,7 @@
 
 | Learner | Programme | Institution |
 |:--:|:--:|:--:|
-| **Soham Aich** | B.Tech (CSE) | Institute of Engineering & Management |
+| **Soham Aich** | B.Tech (CSE) | Institute of Engineering & Management, Kolkata |
 
 </div>
 
