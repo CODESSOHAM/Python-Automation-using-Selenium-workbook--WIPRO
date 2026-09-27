@@ -1,0 +1,12 @@
+URL: https://jsonplaceholder.typicode.com/users
+Status: 201
+
+Body:
+{
+  "name": "Jane Doe",
+  "username": "janedoe",
+  "email": "jane.doe@example.com",
+  "phone": "555-0100",
+  "website": "janedoe.dev",
+  "id": 11
+}

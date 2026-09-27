@@ -1,0 +1,5 @@
+URL: https://jsonplaceholder.typicode.com/users/1
+Status: 200
+
+Body:
+{}

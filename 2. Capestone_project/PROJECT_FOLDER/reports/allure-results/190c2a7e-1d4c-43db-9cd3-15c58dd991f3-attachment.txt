@@ -1,0 +1,8 @@
+URL: https://automationexercise.com/api/verifyLogin
+Status: 200
+
+Body:
+{
+  "responseCode": 404,
+  "message": "User not found!"
+}

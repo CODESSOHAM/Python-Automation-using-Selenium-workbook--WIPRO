@@ -1,0 +1,45 @@
+URL: https://automationexercise.com/api/searchProduct
+Status: 200
+
+Body:
+{
+  "responseCode": 200,
+  "products": [
+    {
+      "id": 33,
+      "name": "Soft Stretch Jeans",
+      "price": "Rs. 799",
+      "brand": "Polo",
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Jeans"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Regular Fit Straight Jeans",
+      "price": "Rs. 1200",
+      "brand": "H&M",
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Jeans"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Grunt Blue Slim Fit Jeans",
+      "price": "Rs. 1400",
+      "brand": "Polo",
+      "category": {
+        "usertype": {
+          "usertype": "Men"
+        },
+        "category": "Jeans"
+      }
+    }
+  ]
+}

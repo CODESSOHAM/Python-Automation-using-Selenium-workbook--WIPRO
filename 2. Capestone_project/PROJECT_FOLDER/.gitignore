@@ -2,8 +2,4 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-reports/allure-results/*
-reports/allure-report/*
-!reports/allure-results/.gitkeep
-!reports/allure-report/.gitkeep
 .env

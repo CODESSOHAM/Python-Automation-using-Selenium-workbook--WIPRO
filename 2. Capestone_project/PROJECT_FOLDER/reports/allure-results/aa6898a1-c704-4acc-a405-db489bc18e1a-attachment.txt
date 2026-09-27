@@ -1,0 +1,8 @@
+URL: https://automationexercise.com/api/searchProduct
+Status: 200
+
+Body:
+{
+  "responseCode": 400,
+  "message": "Bad request, search_product parameter is missing in POST request."
+}
